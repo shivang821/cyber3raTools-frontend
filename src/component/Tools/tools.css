@@ -31,7 +31,7 @@
     margin: 2px;
 }
 .toolsTop1>img{
-    width: 7rem;
+    width: 8rem;
     transform: translateY(-1rem);
     margin: 1rem;
 }
@@ -80,6 +80,13 @@
     background-color: #0f1724;  
     border-radius: 5px;
     display: flex;
+    cursor: pointer;
+    transition: background-color .5s;
+    border: 2px solid transparent;
+}
+.toolItem:hover{
+    background-color: transparent;
+    border: 2px solid #0ec9ac;
 }
 .toolItemLeft{
     height: 100%;
