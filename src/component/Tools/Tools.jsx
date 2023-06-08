@@ -34,7 +34,7 @@ const Tools = () => {
                 <h3>Ping</h3>
               </div>
               <div className="toolsItemRight2">
-                <p>get details about a url</p>
+                <p>Get details about a url</p>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Tools = () => {
                 <h3>Ping</h3>
               </div>
               <div className="toolsItemRight2">
-                <p>get details about a url</p>
+                <p>Get details about a url</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Tools = () => {
                 <h3>Ping</h3>
               </div>
               <div className="toolsItemRight2">
-                <p>get details about a url</p>
+                <p>Get details about a url</p>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ const Tools = () => {
                 <h3>Ping</h3>
               </div>
               <div className="toolsItemRight2">
-                <p>get details about a url</p>
+                <p>Get details about a url</p>
               </div>
             </div>
           </div>
