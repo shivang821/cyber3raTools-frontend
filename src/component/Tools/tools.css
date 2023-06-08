@@ -1,0 +1,122 @@
+.tools{
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+.toolsTop{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.toolsTop1{
+    height: 50%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    font-family: Roboto,sans-serief;
+}
+.toolsTop1 span{
+    color: #0ec9ac;
+    font-size: 3rem;
+    margin: 2px;
+}
+.toolsTop1>img{
+    width: 7rem;
+    transform: translateY(-1rem);
+    margin: 1rem;
+}
+.toolsTop2{
+    height: 50%;
+    width: 75%;
+    font-weight: 550;
+    color: #ffffff;
+    border-bottom: 2px solid #0f1724;
+    font-size: 1.2rem;
+    font-family: Roboto ,sans-serief;
+    line-height: 2rem;
+    font-size: 25px;
+    letter-spacing: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom:2rem ;
+}
+.toolsTop2>p>span{
+    color:#0ec9ac ;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.toolsBottom{
+    min-height: calc(100% - 15rem);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.toolsBottom>div{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem ;
+    padding: 2rem 0;
+}
+.toolItem{
+    height: 7rem;
+    width: 30%;
+    background-color: #0f1724;  
+    border-radius: 5px;
+    display: flex;
+}
+.toolItemLeft{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toolItemLeft>svg{
+    color: #0ec9ac;
+    font-size: 3.5rem;
+}
+.toolItemRight{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    flex-direction: column;
+    padding: 1rem 0;
+    
+}
+.toolsItemRight1{
+    height: 40%;
+    width: 100%;
+}
+.toolsItemRight2{
+    height: 60%;
+    width: 100%;
+    padding-right:1rem;
+}
+.toolsItemRight2>p{
+    color: #7a7a7a;
+    font-size: 1.2rem;
+}
+.toolsItemRight1>h3{
+    color: #0ec9ac;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
