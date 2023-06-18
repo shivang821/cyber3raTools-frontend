@@ -151,3 +151,96 @@
     background-color: transparent;
     color: #0ec9ac;
 }
+
+@media screen and (max-width:767px) {
+    .popup{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0,.5);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .popupCenter{
+        height: 25rem;
+        width: 90%;
+        max-width: 30rem;
+        margin: auto auto;
+        left: calc((100% - 90%) / 2);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .popupCenterTop{
+        height: 85%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .popupCenterTop12{
+        width: 90%;
+        max-width: 25rem;
+    }
+    .popupCenterTop12>input::placeholder{
+        font-size: 1.1rem;
+    }
+    .popupCenterTop12>svg{
+        color: #7a7a7a;
+        transform: translateX(1rem);
+    }
+    .popupCenterTop12>input{
+        padding-right: 4.5rem;
+        letter-spacing: 1.3px;
+    }
+    .popupCenterTop12>div{
+        width: 4rem;
+    }
+    
+    .popupCenterTop12>div>button{
+        font-size: 1rem;
+    }
+    .popupCenterTop2{
+        height: 60%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popupCenterTop21{
+        width: 25rem;
+    }
+    .popupCenterTop21>p{
+        color: #0ec9ac;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .popupCenterBottom{
+        height: 15%;
+        width: 90%;
+        max-width: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding:0 0;
+    }
+    .popupCenterBottom>button{
+        height: 2rem;
+        width: 7rem;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        background-color: #0ec9ac;
+        color: whitesmoke;
+        font-size: 1.1rem;
+        font-weight: 550;
+        transition: background-color .5s,color .5s;
+    }
+    .popupCenterBottom>button:hover{
+        border: 2px solid #0ec9ac;
+        background-color: transparent;
+        color: #0ec9ac;
+    }
+        
+}

@@ -8,10 +8,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Routes>
-        <Route path='/tools' element={<Tools/>} />
-      </Routes>
+      {/* <Navbar/> */}
+      {/* <Routes>
+        <Route path='/tools' element={} />
+      </Routes> */}
+      <Tools/>
     </>
   )
 }

@@ -79,10 +79,9 @@ const Tools = () => {
       <div className="toolsTop">
         <div className='toolsTop1'>
           <img src={logo} alt="" />
-          {/* <p>CYBER<span>3</span>RA</p> */}
         </div>
         <div className='toolsTop2'>
-          <p> <span > <span>E</span>mpower</span> Your Digital Defense with Cutting-Edge Cybersecurity Tools: <br /> Safeguarding Your Online World!</p>
+          <p> <span > <span>E</span>mpower</span> Your Digital Defense with Cutting-Edge Cybersecurity Tools: {window.innerWidth><br />} Safeguarding Your Online World!</p>
         </div>
       </div>
       <div className="toolsBottom">
