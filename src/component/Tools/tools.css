@@ -196,7 +196,8 @@
 
     .toolItem {
         height: 6rem;
-        width: 40%;
+        width: 45%;
+        max-width: 25rem;
     }
     .toolItemLeft {
         height: 100%;
